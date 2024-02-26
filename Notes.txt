@@ -1,0 +1,16 @@
+- What is a compiler
+
+- What is Lexical analysis
+
+- Lexical analyzer code
+
+- What is parsing
+
+- Top down vs Bottom up parsing
+
+- Parser code
+
+- What is a symbol table
+
+- Symbol table code
+
