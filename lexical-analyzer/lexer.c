@@ -11,11 +11,11 @@ enum TokenType classifyToken(char token[]) {
         return NUMBER;
     }
 
-    if (strchr("+-*/=^", token[0]) != NULL) {
+    if (strchr("+-*/=", token[0]) != NULL) {
         return OPERATOR;
     }
 
-    if (strchr("(),;{}[]", token[0]) != NULL) {
+    if (strchr("(),;{}", token[0]) != NULL) {
         return PUNCTUATION;
     }
 

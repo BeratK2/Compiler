@@ -15,6 +15,7 @@ enum TokenType {
 struct Token {
     enum TokenType type;
     char value[50];
+    int id; 
 };
 
 // Function declaration
